@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "meaw-app",
-    "slug": "meaw-app",
+    "name": "Meaw Pet Feeder",
+    "slug": "meaw-pet-feeder",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#f4b083"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -20,11 +20,16 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#f4b083"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "scheme": "meaw-pet-feeder",
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
